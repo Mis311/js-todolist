@@ -1,0 +1,93 @@
+:root{
+  --bg: linear-gradient( #ffcf4d 300px, white 300px);
+}
+
+body {
+  background: var(--bg);
+  z-index:-1;
+  margin: 0;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+}
+
+/* 
+body:after{
+  content: "";
+  display: block;
+  background-attachment: fixed;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+ 
+} */
+
+/* remembah, 100% screen size lol or it will make scrollbars from left to right hmm*/
+.left-container{
+  width:20%;
+}
+
+.todo-container{
+ width:60%; 
+}
+
+h1{
+  color: #9da7b8;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left:20px;
+}
+
+.type-in > input{
+  border:none;
+  outline-style:none;
+}
+.item{
+  background-color:white;
+  width:300px;
+  height:50px;
+  margin-top:20px;
+  border:none;
+  border-radius:10px;
+  box-shadow: 2px 2px 4px gray;
+  padding:0px 0px 0px 20px;
+}
+
+.navigation{
+  width:300px;
+  height:30px;
+  border:none;
+  border-radius:10px;
+  box-shadow: 2px 2px 4px gray;
+  margin-top:20px;
+}
+
+.navigation-list{
+  /* Sensei changed it from 5px to 10px - jkjkjk */
+  font-size:10px;
+  padding:5px;
+}
+
+a{
+  text-decoration:none;
+}
+
+.cross-line{
+  text-decoration:line-through;
+}
+
+.hidden{
+  display: none;
+}
+
+#add-button{
+  background-color: #ffcf4d; /* Green */
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 10px;
+  margin-left:40px;
+}
