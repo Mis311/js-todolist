@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="predefined.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <!-- Removed <form> for a bit, it will create a bit issue for now ok -->
+  <!--   <input type="text" id="todo-text">
+  <button onclick="addToDo();">Add</button>
+
+  
+  <div id='list'></div> -->
+  <!-- yellow colored section, upper half of contents -->
+  <!--   test function click turning red -->
+
+  <div class="main-container row">
+    <div class="left-container column">
+      <h1 class="title">TO DO</h1>
+    </div>
+
+    <div class="todo-container column vr-center space-between">
+
+
+      <div class="type-in item row vr-center">
+        <input type="text" id="type-todo" value="" placeholder="Add Todo" />
+      <button id="add-button" onclick="addToList();">Add</button>
+      </div>
+      <!--yeah yup lol List having all the lists -->
+      <!-- mhm ^^, make sure to comment things out
+        it is for your own ease too -->
+
+        <div class=" list"></div>
+    </div>
+    <div class="navigation row vr-center hr-center">
+      <a class="navigation-list" href="#">3 Tasks Left</a>
+      <a class="navigation-list" href="#">All / Active / Completed</a>
+      <a class="navigation-list" href="#" onclick="achieveCompleted();">Achieve Completed</a>
+    </div>
+
+
+  </div>
+
+  </div>
+
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
